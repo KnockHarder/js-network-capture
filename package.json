@@ -1,0 +1,14 @@
+{
+  "name": "js-network-capture",
+  "version": "1.0.0",
+  "description": "Node.js network request interceptor — captures HTTP/HTTPS traffic to ~/.networkLogs",
+  "main": "hook.js",
+  "files": [
+    "hook.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
