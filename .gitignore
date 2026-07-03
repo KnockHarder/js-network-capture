@@ -1,0 +1,6 @@
+node_modules/
+.superpowers/
+docs/superpowers/
+.claude/
+*.log
+.DS_Store
