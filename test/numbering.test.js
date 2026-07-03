@@ -3,7 +3,7 @@ const assert = require('node:assert');
 const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
-const { createNumbering } = require('./numbering');
+const { createNumbering } = require('../lib/numbering');
 
 describe('createNumbering', () => {
   let tmpDir;

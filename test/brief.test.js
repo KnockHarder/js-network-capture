@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert');
-const { generateBrief } = require('./brief');
+const { generateBrief } = require('../lib/brief');
 
 describe('generateBrief', () => {
   it('returns primitives unchanged', () => {

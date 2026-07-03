@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert');
-const { sanitizeValue, sanitizeHeaders, sanitizeParams, sanitizeBody } = require('./sanitizer');
+const { sanitizeValue, sanitizeHeaders, sanitizeParams, sanitizeBody } = require('../lib/sanitizer');
 
 describe('sanitizeValue', () => {
   it('returns ***REDACTED*** when key contains "token" (case-insensitive)', () => {
